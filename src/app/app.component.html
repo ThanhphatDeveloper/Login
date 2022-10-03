@@ -1,15 +1,14 @@
 
 
-<body>
-  <div class="main">
 
+  <div class="main">
 
     <section class="h-screen ">
       <div class="container px-6 py-12 h-full ">
-        <div class="boder ">
+        <div class="boder">
         <div class="flex justify-center items-center flex-wrap h-full g-6 text-gray-800 ">
 
-          <div class="md:w-8/12 lg:w-5/12 lg:ml-20 border-4 border-indigo-500/100">
+          <div class="md:w-8/12 lg:w-5/12 lg:ml-20 border-4 border-indigo-500/100 shadow-2xl pb-5">
             <div class="title my-16">
 
               <div class="flex justify-center items-center text-5xl text-zinc-500 font-bold">Đăng nhập</div>
@@ -17,9 +16,9 @@
                   class="text-purple-700">Tạo tài khoản mới.</a></p>
             </div>
 
-            <form>
+            <form >
               <!-- Email input -->
-              <div class="mb-6 px-8">
+              <div class="mb-4 px-6">
                 <label class="text-base" for="">Email</label>
                 <input type="text" placeholder="Hãy nhập email"
                   class="form-control block w-full px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
@@ -27,7 +26,7 @@
               </div>
 
               <!-- Password input -->
-              <div class="mb-6 px-8">
+              <div class="mb-6 px-6">
                 <label class="text-base" for="">Password</label>
 
                 <input type="password" placeholder="Hãy nhập password"
@@ -35,14 +34,14 @@
                   placeholder="Password" />
               </div>
 
-              <div class="flex justify-between items-center mb-6 px-8">
-                <div class="form-group form-check">
+              <div class="flex justify-between items-center mb-6 px-6">
+                <!-- <div class="form-group form-check">
                   <input type="checkbox"
                     class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
                     id="exampleCheck3" checked />
                   <label class="form-check-label inline-block text-gray-800" for="exampleCheck2">
                     Ghi nhớ mật khẩu</label>
-                </div>
+                </div> -->
                 <a href="#!"
                   class="text-blue-600 hover:text-blue-700 focus:text-blue-700 active:text-blue-800 duration-200 transition ease-in-out">
                   Quên mật khẩu?</a>
@@ -50,10 +49,10 @@
 
               <!-- Submit button -->
 
-              <div class="but flex justify-center items-center w-full">
+              <div class="flex justify-center items-center w-11/12 bg-purple-800 m-auto rounded-full hover:bg-blue-700 hover:shadow-lg" >
                 <button type="submit"
-                class="  px-20  rounded-full  py-3 bg-purple-800 text-white font-medium text-sm leading-snug uppercase shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-                data-mdb-ripple="true" data-mdb-ripple-color="light">
+                class="w-11/12 px-4 rounded-full py-3 text-white font-medium text-sm leading-snug uppercase shadow-md  "
+                >
                 Đăng nhập
               </button>
               </div>
@@ -61,8 +60,14 @@
 
               <div
               
-                class="flex items-center justify-center my-4 before:flex-1 before:border-t before:border-gray-300 before:mt-0.5 after:flex-1 after:border-t after:border-gray-300 after:mt-0.5">
-                <div class="font-semibold mx-4 mb-0">Hoặc</div>
+                class="w-full my-4 before:flex-1 before:border-t before:border-gray-300 before:mt-0.5 after:flex-1 after:border-t after:border-gray-300 after:mt-0.5">
+                <div class="flex justify-center items-center">
+                  <div class=" border border-r-indigo-200 w-60"></div>
+                  <div class="font-semibold mx-4 mb-0">Hoặc</div>
+                  <div class=" border border-r-indigo-200 w-60"></div>
+                </div>
+                
+                
               </div>
 
               <div class="flex px-8">
@@ -74,10 +79,11 @@
                     <!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                     <path fill="currentColor"
                       d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
-                  </svg>Facebook
+                  </svg>
                 </a>
-                <a class=" rounded-full ml-10 py-3 text-white font-medium text-sm leading-snug uppercase shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full flex justify-center items-center mb-3"
-                  style="background-color: #55acee" href="#" role="button" data-mdb-ripple="true"
+
+                <a class="h-10 rounded-full ml-10 py-3 text-white font-medium text-sm leading-snug uppercase shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full flex justify-center items-center mb-3"
+                   href="#" role="button" data-mdb-ripple="true"
                   data-mdb-ripple-color="light">
                  <!-- Google -->
 
@@ -95,7 +101,7 @@
                     <path fill="#1976D2"
                       d="M43.611,20.083H42V20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.571c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z">
                     </path>
-                  </svg>Google
+                  </svg>
                 </a>
               </div>
             </form>
@@ -106,4 +112,4 @@
     </section>
   </div>
   <router-outlet></router-outlet>
-</body>
+
